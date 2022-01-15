@@ -1,8 +1,9 @@
 ﻿  C_sintax.c
-D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(40,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(40,12): message : consider using '%zd' in the format string
-D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(41,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(41,12): message : consider using '%zd' in the format string
-D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(36,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'char [2]'
-D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(22,9): warning C4101: 'Number': unreferenced local variable
+D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(45,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(45,12): message : consider using '%zd' in the format string
+D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(46,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(46,12): message : consider using '%zd' in the format string
+D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(41,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'char [2]'
+D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(95,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(23,9): warning C4101: 'Number': unreferenced local variable
   C_Sintax2.vcxproj -> D:\CODE\С\repos\C_Sintax2\x64\Debug\C_Sintax2.exe
