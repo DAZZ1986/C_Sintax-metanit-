@@ -1,0 +1,3 @@
+﻿  C_sintax.c
+D:\CODE\С\repos\C_Sintax2\C_Sintax2\C_sintax.c(10,11): warning C4013: 'printf' undefined; assuming extern returning int
+  C_Sintax2.vcxproj -> D:\CODE\С\repos\C_Sintax2\x64\Debug\C_Sintax2.exe
