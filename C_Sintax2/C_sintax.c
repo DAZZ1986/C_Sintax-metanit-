@@ -1,5 +1,7 @@
 #include <stdio.h>        // подключаем заголовочный файл stdio.h
 #include <locale.h>
+#include <limits.h>
+
 
 
 int main(void)                  // определяем функцию main
@@ -16,6 +18,7 @@ int main(void)                  // определяем функцию main
 
 
 
+
     // Переменные - https://metanit.com/cpp/c/2.2.php
     int Number; //Number и number - это разные переменные тк Си регистровый язык
 
@@ -24,16 +27,29 @@ int main(void)                  // определяем функцию main
     printf("number = %d \n", number);   // %d - это спецификатор вместо которого вставляется значение переменной.
 
     /* Зарезервированные ключевые слова в Си:
-    auto, break, case, char, const, continue, default, do, double, else, enum, extern, float, for, goto, if, int, long, register, return, short, signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile, while.
+    auto, break, case, char, const, continue, default, do, double, else, enum, extern, float, for, goto, if, int, long, 
+    register, return, short, signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile, while.
     */
 
 
 
+
     // Типы данных - https://metanit.com/cpp/c/2.3.php
+    char c = 120;
+    char ch = "#";   //??????????????????????????????????????????
+    printf("c = %d \n", c);
+    printf("ch = %d \n", ch);   //??????????????????????????????????????????
+
+    printf("sizeof(c) = %d байт. \n", sizeof(c));
+    printf("sizeof(number) = %d байт. \n", sizeof(number));
+
+    printf("INT_MIN = %d \n", INT_MIN);  //для переменной встроенного значения INT_MIN подключаем заголовок #include <limits.h>
+    printf("INT_MAX = %d \n", INT_MAX);  //Значения INT_MIN и INT_MAX определены в заголовочном файле limits.h, поэтому его необходимо подключить с помощью директивы include
 
 
 
-    //fix from home
+
+    // Консольный вывод. Функция printf - https://metanit.com/cpp/c/2.4.php
 
 
 
@@ -42,6 +58,14 @@ int main(void)                  // определяем функцию main
 
 
 
+
+
+
+
+
+
+
+    //work from home
     return 0;                   // выходим из функции
 }                               
 
