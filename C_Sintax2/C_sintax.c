@@ -148,7 +148,7 @@ int main(void)                  // определяем функцию main
 
 
 
-    printf("\n\n\n/////////// Консольный вывод\n");
+    printf("\n\n\n/////////// Константы\n");
     // Константы - https://metanit.com/cpp/c/2.5.php
     /*
 
